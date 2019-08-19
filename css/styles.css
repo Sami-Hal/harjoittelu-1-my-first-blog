@@ -52,6 +52,10 @@ main{
     /* position: relative; */
 }
 
+small{
+    font-size: 10px;
+}
+
 section{
     width: 70%;
     float: left;

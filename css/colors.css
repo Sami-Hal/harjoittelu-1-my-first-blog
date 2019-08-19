@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+}
+.first{
+    float: left;
+    width: 45%;
+    border: 1px solid black
+}
+.second{
+    float: right;
+    width: 45%;
+    border: 1px solid black
+}
+.third{
+    float: left;
+    width: 45%;
+    border: 1px solid black
+}
+.fourth{
+    float: right;
+    width: 45%;
+    border: 1px solid black
+}
+.fifth{
+    width: 45%;
+    border: 1px solid black
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+#one{
+    color: #BFBFBF;
+    background: #0D0D0D;
+}
+#two{
+    color: #F2E7AE;
+    background: #0D0D0D;
+}
+#three{
+    color: #737373;
+    background: #0D0D0D;
+}
+#four{
+    color: #404040;
+    background: #BFBFBF;
+}
+#five{
+    color: #0D0D0D;
+    background: #BFBFBF;
+}
+
+#six{
+    color: #056CF2;
+    background: ;
+}
+#seven{
+    color: #1E6FD9;
+    background: ;
+}
+#eight{
+    color: #AECCF2;
+    background: ;
+}
+#nine{
+    color: #2EA7F2;
+    background: ;
+}
+#ten{
+    color: #F2F2F2;
+    background: ;
+}
+
+#eleven{
+    color: #3D3959;
+    background: #D9A05B;
+}
+#twelve{
+    color: #3D3959;
+    background: #F2BF5E;
+}
+#thirteen{
+    color: #D9A05B;
+    background: #3D3959;
+}
+#fourteen{
+    color: #D96F32;
+    background: #3D3959;
+}
+#fifteen{
+    color: #BF4539;
+    background: #3D3959;
+}
+
+#sixteen{
+    color: #044DC2;
+    background: #FFBF3B;
+}
+#seventeen{
+    color: #70A7FF;
+    background: #B37A05;
+}
+#eighteen{
+    color: #3A86FF;
+    background: #B37A05;
+}
+#nineteen{
+    color: #B37A05;
+    background: #3A86FF;
+}
+#twenty{
+    color: #FFBF3B;
+    background: #70A7FF;
+}
+
+#twentyone{
+    color: #2E56B3;
+    background: ;
+}
+#twentytwo{
+    color: #FF8D75;
+    background: ;
+}
+#twentythree{
+    color: #5B8CFF;
+    background: ;
+}
+#twentyfour{
+    color: #94CC35;
+    background: ;
+}
+#twentyfive{
+    color: #85B337;
+    background: ;
+}

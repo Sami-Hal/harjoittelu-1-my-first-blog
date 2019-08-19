@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+h2, h3{
+    margin: 0;
+}
+
+body{
+    background-color: #737373;
+    margin: 20px 0;
+    font-family: sans-serif;
+    color: #F2E7AE;
+    /* color: #83d0f2; */
+}
+form{
+    color: #F2E7AE
+}
+
+.wrapper{
+    width: 85%;
+    /* width: 800px; */
+    margin: 0 auto;
+    background-color: #0D0D0D;
+    /* border-radius: 10px; */
+}
+
+header{
+    padding: 50px;
+    overflow: hidden;
+}
+
+header > #logo{
+    font-size: 2em;
+    float: left;
+}
+
+nav{
+    float:right;
+    color: #ffffff
+}
+nav a{
+    color: #0D0D0D;
+}
+nav a:visited{
+    color: #000000;
+}
+
+main{
+    padding: 50px 20px 50px 50px;
+
+    overflow: hidden;
+    /* position: relative; */
+}
+
+section{
+    width: 70%;
+    float: left;
+}
+
+aside{
+    width: 30%;
+    float: right;
+    background-color: #ffffff;
+    padding: 10px;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 10px; */
+}
+
+aside h3{
+    background-color: #F2E7AE;
+    color: #0D0D0D;
+    padding: 10px;
+}
+
+aside a{
+    color:#0D0D0D;
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid #cccccc;
+    text-align:center;
+}
+
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+article:last-child{
+    border-bottom: 0px;
+}
+
+article a{
+    color: #BFBFBF;
+}
+
+section a:visited{
+    color: #737373
+}
+
+.register{
+    border: 5px double #737373;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.button {
+    color: #F2E7AE; font-size: 16px; line-height: 16px; padding: 2px;
+    border-radius: 3px; font-family: Georgia, serif; font-weight: normal; text-decoration: none;
+    font-style: normal; font-variant: normal; text-transform: none;
+    background-image: linear-gradient(to right, #737373 0%, #BFBFBF 50%, #404040 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid #737373; display: inline-block;}
+
+.button:hover {
+    background: #737373; }
+    
+.button:active{
+    background: #404040; }
+
+input[type=submit], input[type=reset] {
+    color: #F2E7AE; font-size: 16px; line-height: 16px; padding: 5px;
+    border-radius: 3px; font-family: Georgia, serif; font-weight: normal; text-decoration: none;
+    font-style: normal; font-variant: normal; text-transform: none;
+    background-image: linear-gradient(to right, #737373 0%, #BFBFBF 50%, #404040 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid #737373; display: inline-block;}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background: #737373; }
+    
+input[type=submit]:active, input[type=reset]:active{
+    background: #404040; }

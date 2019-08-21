@@ -117,28 +117,18 @@ section a:visited{
 
 .button {
     color: #4789ee; font-size: 16px; line-height: 16px; padding: 2px;
-    /* border-radius: 3px;*/ font-family: sans-serif, serif; font-weight: normal; text-decoration: none; 
+    font-family: sans-serif, serif; font-weight: normal; text-decoration: none; 
     font-style: normal; font-variant: normal; text-transform: none;
-    /*background-image: linear-gradient(to right, #404040 0%, #737373 50%, #0D0D0D 100%);*/
     background: #0D0D0D;
     box-shadow: #404040 0px 0px 15px 2px; border: 1px solid #737373; display: inline-block;}
+
+input.button{
+    padding: 5px
+    
+}
 
 .button:hover {
     background: #404040; }
     
 .button:active{
-    background: #404040; }
-
-input[type=submit], input[type=reset] {
-    color: #4789ee; font-size: 16px; line-height: 16px; padding: 5px;
-    /* border-radius: 3px;*/ font-family: sans-serif, serif; font-weight: normal; text-decoration: none;
-    font-style: normal; font-variant: normal; text-transform: none;
-    background: #0D0D0D;
-    /*background-image: linear-gradient(to right, #404040 0%, #737373 50%, #0D0D0D 100%);*/
-    box-shadow: #404040 0px 0px 15px 3px; border: 1px solid #737373; display: inline-block;}
-
-input[type=submit]:hover, input[type=reset]:hover {
-    background: #404040; }
-    
-input[type=submit]:active, input[type=reset]:active{
     background: #404040; }

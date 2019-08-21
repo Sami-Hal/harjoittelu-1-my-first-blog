@@ -10,11 +10,11 @@ body{
     background-color: #737373;
     margin: 20px 0;
     font-family: sans-serif;
-    color: #F2E7AE;
+    color: #4789ee;
     /* color: #83d0f2; */
 }
 form{
-    color: #F2E7AE
+    color: #4789ee
 }
 
 .wrapper{
@@ -44,7 +44,7 @@ nav a{
     color: #0D0D0D;
 }
 nav a:visited{
-    color: #000000;
+    color: #737373;
 }
 
 main{
@@ -74,7 +74,7 @@ aside{
 }
 
 aside h3{
-    background-color: #F2E7AE;
+    background-color: #669df1;
     color: #0D0D0D;
     padding: 10px;
 }
@@ -92,6 +92,7 @@ footer{
 article{
     padding: 30px 0;
     border-bottom: 1px solid #ffffff;
+    margin-right: 10px;
 }
 
 article:last-child{
@@ -99,11 +100,11 @@ article:last-child{
 }
 
 article a{
-    color: #BFBFBF;
+    color: #4789ee;
 }
 
 section a:visited{
-    color: #737373
+    color: #737373;
 }
 
 .register{
@@ -115,27 +116,29 @@ section a:visited{
 }
 
 .button {
-    color: #F2E7AE; font-size: 16px; line-height: 16px; padding: 2px;
+    color: #4789ee; font-size: 16px; line-height: 16px; padding: 2px;
     /* border-radius: 3px;*/ font-family: sans-serif, serif; font-weight: normal; text-decoration: none; 
     font-style: normal; font-variant: normal; text-transform: none;
-    background-image: linear-gradient(to right, #737373 0%, #BFBFBF 50%, #404040 100%);
-    box-shadow: #404040 0px 0px 15px 5px; border: 1px solid #737373; display: inline-block;}
+    /*background-image: linear-gradient(to right, #404040 0%, #737373 50%, #0D0D0D 100%);*/
+    background: #0D0D0D;
+    box-shadow: #404040 0px 0px 15px 2px; border: 1px solid #737373; display: inline-block;}
 
 .button:hover {
-    background: #737373; }
+    background: #404040; }
     
 .button:active{
     background: #404040; }
 
 input[type=submit], input[type=reset] {
-    color: #F2E7AE; font-size: 16px; line-height: 16px; padding: 5px;
+    color: #4789ee; font-size: 16px; line-height: 16px; padding: 5px;
     /* border-radius: 3px;*/ font-family: sans-serif, serif; font-weight: normal; text-decoration: none;
     font-style: normal; font-variant: normal; text-transform: none;
-    background-image: linear-gradient(to right, #737373 0%, #BFBFBF 50%, #404040 100%);
-    box-shadow: #404040 0px 0px 15px 5px; border: 1px solid #737373; display: inline-block;}
+    background: #0D0D0D;
+    /*background-image: linear-gradient(to right, #404040 0%, #737373 50%, #0D0D0D 100%);*/
+    box-shadow: #404040 0px 0px 15px 3px; border: 1px solid #737373; display: inline-block;}
 
 input[type=submit]:hover, input[type=reset]:hover {
-    background: #737373; }
+    background: #404040; }
     
 input[type=submit]:active, input[type=reset]:active{
     background: #404040; }

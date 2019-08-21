@@ -117,10 +117,11 @@ section a:visited{
 
 .button {
     color: #4789ee; font-size: 16px; line-height: 16px; padding: 2px;
-    font-family: sans-serif, serif; font-weight: normal; text-decoration: none; 
+    font-family: sans-serif, serif; font-weight: bold; text-decoration: none; 
     font-style: normal; font-variant: normal; text-transform: none;
     background: #0D0D0D;
-    box-shadow: #404040 0px 0px 15px 2px; border: 1px solid #737373; display: inline-block;}
+    box-shadow: #404040 0px 0px 15px 2px; border: 1px solid #737373; display: inline-block;
+}
 
 input.button{
     padding: 5px
@@ -128,7 +129,9 @@ input.button{
 }
 
 .button:hover {
-    background: #404040; }
-    
+    background: #404040; 
+}
+
 .button:active{
-    background: #404040; }
+    background: #404040; 
+}

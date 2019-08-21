@@ -19,6 +19,7 @@ form{
 
 .wrapper{
     width: 85%;
+    max-width: 800px;
     /* width: 800px; */
     margin: 0 auto;
     background-color: #0D0D0D;

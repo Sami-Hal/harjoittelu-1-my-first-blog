@@ -116,7 +116,7 @@ section a:visited{
 
 .button {
     color: #F2E7AE; font-size: 16px; line-height: 16px; padding: 2px;
-    /* border-radius: 3px;*/ font-family: Georgia, serif; font-weight: normal; text-decoration: none; 
+    /* border-radius: 3px;*/ font-family: sans-serif, serif; font-weight: normal; text-decoration: none; 
     font-style: normal; font-variant: normal; text-transform: none;
     background-image: linear-gradient(to right, #737373 0%, #BFBFBF 50%, #404040 100%);
     box-shadow: #404040 0px 0px 15px 5px; border: 1px solid #737373; display: inline-block;}
@@ -129,7 +129,7 @@ section a:visited{
 
 input[type=submit], input[type=reset] {
     color: #F2E7AE; font-size: 16px; line-height: 16px; padding: 5px;
-    /* border-radius: 3px;*/ font-family: Georgia, serif; font-weight: normal; text-decoration: none;
+    /* border-radius: 3px;*/ font-family: sans-serif, serif; font-weight: normal; text-decoration: none;
     font-style: normal; font-variant: normal; text-transform: none;
     background-image: linear-gradient(to right, #737373 0%, #BFBFBF 50%, #404040 100%);
     box-shadow: #404040 0px 0px 15px 5px; border: 1px solid #737373; display: inline-block;}

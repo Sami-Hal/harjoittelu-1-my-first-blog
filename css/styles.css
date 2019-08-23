@@ -1,3 +1,91 @@
+
+h2, h3{
+    margin: 0;
+}
+body{
+    background-color: #737373;
+    margin: 20px 0;
+    font-family: sans-serif;
+    color: #4789ee;
+}
+header{
+    padding: 50px;
+    overflow: hidden;
+}
+header > #logo{
+    font-size: 2em;
+}
+nav a{
+    color: #0D0D0D;
+}
+nav a:visited{
+    color: #737373;
+}
+main{
+    padding: 50px 20px 50px 50px;
+}
+small{
+    font-size: 10px;
+}
+aside{
+    background-color: #ffffff;
+    padding: 10px;
+}
+aside h3{
+    background-color: #669df1;
+    color: #0D0D0D;
+    padding: 10px;
+}
+aside a{
+    color:#0D0D0D;
+}
+aside a:visited{
+    color: #737373;
+}
+footer{
+    padding: 20px;
+    border-top: 1px solid #cccccc;
+    text-align:center;
+}
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid #ffffff;
+    margin-right: 10px;
+}
+article:last-child{
+    border-bottom: 0px;
+}
+article a{
+    color: #4789ee;
+}
+section a:visited{
+    color: #737373;
+}
+.register{
+    border: 5px double #737373;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.button {
+    color: #4789ee; font-size: 16px; line-height: 16px; padding: 2px;
+    font-family: sans-serif, serif; font-weight: bold; text-decoration: none; 
+    font-style: normal; font-variant: normal; text-transform: none;
+    background: #0D0D0D;
+    box-shadow: #404040 0px 0px 15px 2px; border: 1px solid #737373; display: inline-block;
+}
+input.button{
+    padding: 5px
+    
+}
+.button:hover {
+    background: #404040; 
+}
+
+.button:active{
+    background: #404040; 
+}
 .grid-container {
     width: 85%;
     max-width: 1000px;
@@ -11,9 +99,6 @@
     'main main'
     'footer footer';
     grid-auto-rows: auto;
-}
-h2, h3{
-    margin: 0;
 }
 .grid-main{
     display: grid;
@@ -48,9 +133,4 @@ h2, h3{
 }
 .item6 {
     grid-area: nav;
-}
-body{
-    background-color: #737373;
-    color: #4789ee;
-    text-align: center;
 }

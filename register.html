@@ -11,86 +11,92 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <div id="logo">
+    <div class="grid-container">
+        <header class="grid-header">
+            <div id="logo" class="item1">
                 My Awesome Blog
             </div>
-            <nav>
-                <a href="index.html" class="button">Home</a>
-                <a href="about.html" class="button">About</a>
-                <a href="contact.html" class="button">Contact</a>
-            </nav>
+            <div class="item6">
+                <nav>
+                    <a href="index.html" class="button">Home</a>
+                    <a href="contact.html" class="button">Contact</a>
+                    <a href="register.html" class="button">Register</a>
+                </nav>
+            </div>
         </header>
-        <div id="big-image">
-            <img width="100%" src="img/federica-galli-aiqKc07b5PA-unsplash.jpg" alt="computer">
-        </div>
-        <main>
-            <section>
-                <article>
-                    <form action="" name="Register">
-                        <ul class="register">
-                            <li>
-                                <label for="user">
-                                    <h3>Username:</h3>
-                                </label>
-                                <input type="text" id="user" />
-                            </li>
-                            <br />
-                            <li>
-                                <label for="pass">
-                                    <h3>Password:</h3>
-                                </label>
-                                <input type="password" id="pass" />
-                            </li>
-                            <br>
-                            <li>
-                                <label for="email">
-                                    <h3>Email:</h3>
-                                </label>
-                                <input type="text" id="email" />
-                            </li>
-                            <br />
-                            <li>
-                                <label for="bs">
-                                    <h3>Birthday:</h3>
-                                </label>
-                                <input type="date" id="bd" />
-                            </li>
-                            <br />
-                            <li>
-                                <h3>What Species are you?</h3>
-                                <input type="radio" name="rdo" />Human
+        <div class="item2"></div>
+        <main class="grid-main">
+            <div class="item3">
+                <section>
+                    <article>
+                        <form action="" name="Register">
+                            <ul class="register">
+                                <li>
+                                    <label for="user">
+                                        <h3>Username:</h3>
+                                    </label>
+                                    <input type="text" id="user" />
+                                </li>
+                                <br />
+                                <li>
+                                    <label for="pass">
+                                        <h3>Password:</h3>
+                                    </label>
+                                    <input type="password" id="pass" />
+                                </li>
                                 <br>
-                                <input type="radio" name="rdo" />Alien
-                                <br>
-                                <input type="radio" name="rdo" />Other
-                            </li>
-                            <br />
-                            <input class="button" name="Submit" type="submit" />
-                            <input class="button" id="reset" type="reset" />
-                        </ul>
-                    </form>
-                </article>
-            </section>
-            <aside>
-                <h3>Useful Links</h3>
-                <ul>
-                    <li>
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML reference</a>
-                    </li>
-                    <li>
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference</a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.com">Google</a>
-                    </li>
-                </ul>
-            </aside>
+                                <li>
+                                    <label for="email">
+                                        <h3>Email:</h3>
+                                    </label>
+                                    <input type="text" id="email" />
+                                </li>
+                                <br />
+                                <li>
+                                    <label for="bs">
+                                        <h3>Birthday:</h3>
+                                    </label>
+                                    <input type="date" id="bd" />
+                                </li>
+                                <br />
+                                <li>
+                                    <h3>What Species are you?</h3>
+                                    <input type="radio" name="rdo" />Human
+                                    <br>
+                                    <input type="radio" name="rdo" />Alien
+                                    <br>
+                                    <input type="radio" name="rdo" />Other
+                                </li>
+                                <br />
+                                <input class="button" name="Submit" type="submit" />
+                                <input class="button" id="reset" type="reset" />
+                            </ul>
+                        </form>
+                    </article>
+                </section>
+            </div>
+            <div class="item4">
+                <aside>
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML reference</a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference</a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com">Google</a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
         </main>
-        <footer>
-            <small>&copy; My Awesome Blog</small>
-        </footer>
+        <div class="item5">
+            <footer>
+                <small>&copy; My Awesome Blog</small>
+            </footer>
+        </div>
     </div>
 </body>
 

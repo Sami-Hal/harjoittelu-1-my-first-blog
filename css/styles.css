@@ -133,4 +133,5 @@ input.button{
 }
 .item6 {
     grid-area: nav;
+    text-align: right;
 }

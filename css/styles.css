@@ -104,7 +104,7 @@ input.button{
     display: grid;
     grid-area: main;
     grid-template-areas:
-    'text aside';
+    'text1 aside';
     grid-template-columns: 80% 20%;
     grid-auto-rows: auto;
 }
@@ -123,7 +123,7 @@ input.button{
     grid-area: image;
 } 
 .item3 {
-    grid-area: text;
+    grid-area: text1;
 }
 .item4 {
     grid-area: aside;
